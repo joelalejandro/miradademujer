@@ -26,7 +26,7 @@ gulp.task('templates', ['styles'], function() {
 
   var stylesAndScripts = gulp.src(['dist/css/*.css', 'dist/js/*.js'], { read: false });
 
-  return template.pipe($.inject(stylesAndScripts, { addRootSlash: true, ignorePath: 'dist' }))
+  return template.pipe($.inject(stylesAndScripts, { addRootSlash: false, ignorePath: 'dist' }))
                  .pipe(gulp.dest('dist/'));
 });
 

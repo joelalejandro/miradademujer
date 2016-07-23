@@ -40,3 +40,4 @@ jspm_packages
 
 # Project output
 dist
+.publish
