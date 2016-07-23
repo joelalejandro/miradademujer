@@ -1,0 +1,23 @@
+{
+  "name": "miradademujer",
+  "description": "Website for the Art Exhibition \"Una mirada de mujer sobre la mujer\"",
+  "main": "index.js",
+  "authors": [
+    "Joel A. Villarreal Bertoldi"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "art",
+    "exhibition",
+    "women",
+    "website"
+  ],
+  "homepage": "https://github.com/joelalejandro/miradademujer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
